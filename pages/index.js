@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon1.ico" />
       </Head>
 
-      <div className="">
+      
         <Hero/>
         <About/>
         <Product/>
@@ -28,8 +28,8 @@ export default function Home() {
         <MoreinfoModal/>
         <Cta/>
         <Footer/>
-      </div>
     </div>
+    
     
   );
 }
