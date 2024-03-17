@@ -3,11 +3,11 @@ import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
-    <section className="pt-10">
+    <section className="pt-10 py-52 bg-gradient-to-r from-green-500 to-yellow-400">
     <div id="#home">
       <div className="container mx-auto ">
       <Navbar />
-        <div className="  px-6 lg:px-16 py-10 rounded-3xl m-5 backdrop-blur-sm bg-white/75">
+        <div className="  px-6 lg:px-16 py-10 rounded-3xl m-5 backdrop-blur-sm bg-white/75 ">
           
           <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-5">
             <div className="flex flex-col gap-5 lg:gap-10">

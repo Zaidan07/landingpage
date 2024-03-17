@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon1.ico" />
       </Head>
 
-      <div className="bg-gradient-to-r from-green-500 to-yellow-400">
+      <div className="">
         <Hero/>
         <About/>
         <Product/>
