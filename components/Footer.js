@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="container mx-auto pt-10">
       <div className="bg-[#f8fafe] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 px-10 py-10 rounded-xl items-center justify-center   ">
         <div className="flex flex-col items-center lg:items-start gap-5">
-          <image className="w-28" src="/assets/Simaku.png" alt="footer logo" />
+          <img className="w-28" src="/assets/Simaku.png" alt="footer logo" />
           <p className="text-center lg:text-start">20 Osgood Rd. Milford, NH 03055, USA +1283871239190213021</p>
         </div>
         <div className="flex flex-col items-center lg:items-start gap-5">

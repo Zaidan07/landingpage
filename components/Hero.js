@@ -21,7 +21,7 @@ const Hero = () => {
 
 
             </div>
-            <image className="max-w-lg rounded-lg shadow-glass-card" src="/assets/admin/p2.jpg" alt="" />
+            <img className="max-w-sm lg:max-w-lg rounded-lg shadow-glass-card" src="/assets/admin/p2.jpg" alt="" />
           </div>
         </div>
       </div>
