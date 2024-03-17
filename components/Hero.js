@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
 
-
 const Hero = () => {
   return (
     <section className="pt-10 py-52 bg-gradient-to-r from-green-500 to-yellow-400">
@@ -22,7 +21,7 @@ const Hero = () => {
 
 
             </div>
-            <image className="max-w-sm lg:max-w-lg rounded-lg shadow-glass-card" src="/assets/admin/p2.jpg" alt="" />
+            <img className="max-w-sm lg:max-w-lg rounded-lg shadow-glass-card" src="/assets/admin/p2.jpg" alt="" />
           </div>
         </div>
       </div>
