@@ -29,6 +29,7 @@ const MoreInfoModal = () => {
     },
   ]
   return (
+    <section className=''>
     <div className="container mx-auto py-20">
             <p className="text-grey-300 text-2xl font-medium uppercase my-3">
           MORE INFO
@@ -43,7 +44,7 @@ const MoreInfoModal = () => {
     <Disclosure key={i} >
         {({ open }) => (
           <div className='group'>
-            <Disclosure.Button className="flex flex-col group-hover:bg-[#524fd5] group-focus:bg-[#524fd5] w-full justify-between rounded-lg lg:rounded-full border border-gray-200 px-8 py-10 text-left text-sm font-medium  focus:outline-none ">
+            <Disclosure.Button className="flex flex-col group-hover:bg-[#524fd5] group-focus:bg-[#524fd5] w-full justify-between rounded-lg lg:rounded-full border border-black px-8 py-10 text-left text-sm font-medium  focus:outline-none ">
               <div className="flex justify-between items-center w-full">
               <span className='group-hover:text-white  group-focus:text-white'>{inf.title}</span>
               <BsFillPlusCircleFill
@@ -68,6 +69,7 @@ const MoreInfoModal = () => {
  
     </div>
   </div>
+  </section>
   )
 }
 

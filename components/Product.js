@@ -2,7 +2,8 @@ import React from "react";
 
 const Product = () => {
   return (
-    <div className="container mx-auto py-32">
+    <section className="bg-yellow-400">
+    <div className="container mx-auto py-32 ">
       <p className="text-base lg:text-xl font-medium text-grey-300 text-center">OUR PRODUCT</p>
       <p className="text-3xl lg:text-5xl font-semibold text-center mt-3 pb-20">Product</p>
 
@@ -56,6 +57,7 @@ const Product = () => {
 
       </div>
     </div>
+    </section>
   );
 };
 

@@ -7,7 +7,8 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="container mx-auto ">
+    <section className="bg-green-500">
+    <div className="container mx-auto pt-10">
       <div className="bg-[#f8fafe] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 px-10 py-10 rounded-xl items-center justify-center   ">
         <div className="flex flex-col items-center lg:items-start gap-5">
           <img className="w-28" src="/assets/Simaku.png" alt="footer logo" />
@@ -40,6 +41,7 @@ const Footer = () => {
         <span className="block text-sm text-grey-300 sm:text-center dark:text-gray-800">© 2024 <a href="" className="hover:underline">Simaku.</a>id SMK Muhamadiyah 1 Sukoharjo.</span>
         </div>
     </div>
+    </section>
   );
 };
 
