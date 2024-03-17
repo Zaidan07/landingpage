@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -21,7 +22,7 @@ const Hero = () => {
 
 
             </div>
-            <img className="max-w-sm lg:max-w-lg rounded-lg shadow-glass-card" src="/assets/admin/p2.jpg" alt="" />
+            <Image className="max-w-sm lg:max-w-lg rounded-lg shadow-glass-card" src="/assets/admin/p2.jpg" alt="" />
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-16 items-center sm:items-center py-20 pl-8">   
             <div className="flex flex-col gap-5  items-center pt-7 pb-6 max-w-sm rounded-xl overflow-hidden shadow-glass backdrop-blur-sm bg-white/30 " >
-              <img src="/assets/v4.svg" alt="v4" />
+              <Image src="/assets/v4.svg" alt="v4" />
               <p className="text-2xl font-semibold ">Mudah Digunakan</p>
               <p className="text-gray-500 text-center">
                 Lorem, ipsum dolor sit amet consectetur <br />
@@ -22,7 +23,7 @@ const About = () => {
             </div>
 
             <div className="flex flex-col gap-5 items-center pt-7 pb-6 max-w-sm rounded-xl overflow-hidden  shadow-glass backdrop-blur-sm bg-white/30 ">
-              <img src="/assets/v55.svg" alt="v5" />
+              <Image src="/assets/v55.svg" alt="v5" />
               <p className="text-2xl font-semibold ">Harga Terjangkau</p>
               <p className="text-gray-500 text-center">
                 Lorem ipsum dolor sit amet consectetur <br />
@@ -32,7 +33,7 @@ const About = () => {
             </div>
 
             <div className="flex flex-col gap-5 items-center pt-7 pb-6 max-w-sm rounded-xl overflow-hidden  shadow-glass backdrop-blur-sm bg-white/30 ">
-              <img src="/assets/v06.svg" alt="v6" />
+              <Image src="/assets/v06.svg" alt="v6" />
               <p className="text-2xl font-semibold ">Aplikasi Ringan</p>
               <p className="text-gray-500 text-center">
                 Lorem ipsum dolor sit amet consectetur
