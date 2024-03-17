@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+
 
 const Product = () => {
   return (
@@ -14,21 +14,21 @@ const Product = () => {
           <div className="px-6 py-1 ">
             <div className="font-bold text-xl">Jurnal Guru</div>
           </div>
-          <Image src="/assets/clien/v03.jpg" alt="" />
+          <image src="/assets/clien/v03.jpg" alt="" />
         </div>
 
         <div className="flex flex-col gap-5 items-center pt-7 pb-6 max-w-sm rounded-xl overflow-hidden shadow-glass bg-[#f9fafc]">
         <div className="px-6 py-1 ">
             <div className="font-bold text-xl ">Dasboard</div>
           </div>
-          <Image src="/assets/clien/v11.jpg" alt="" />
+          <image src="/assets/clien/v11.jpg" alt="" />
         </div>
 
         <div className="flex flex-col gap-5 items-center pt-7 pb-6 max-w-sm rounded-xl overflow-hidden shadow-glass bg-[#f9fafc]">
           <div className="px-6 py-1">
             <div className="font-bold text-xl ">Jurnal Al-Quran</div>
           </div>
-          <Image src="/assets/clien/v05.jpg" alt="" />
+          <image src="/assets/clien/v05.jpg" alt="" />
         </div>
 
       </div>
@@ -39,21 +39,21 @@ const Product = () => {
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Profile Setting</div>
           </div>
-          <Image src="/assets/admin/p1.jpg" alt="" />
+          <image src="/assets/admin/p1.jpg" alt="" />
         </div>
 
         <div className="flex flex-col gap-5 items-center pt-7 pb-6 max-w-sm rounded-xl overflow-hidden shadow-glass bg-[#f9fafc]">
         <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Dashboard Admin</div>
           </div>
-          <Image src="/assets/admin/p2.jpg" alt="" />
+          <image src="/assets/admin/p2.jpg" alt="" />
         </div>
 
         <div className="flex flex-col gap-5 items-center pt-7 pb-6 max-w-sm rounded-xl overflow-hidden shadow-glass bg-[#f9fafc]">
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Jadwal</div>
           </div>
-          <Image src="/assets/admin/p4.jpg" alt="" />
+          <image src="/assets/admin/p4.jpg" alt="" />
         </div>
 
       </div>

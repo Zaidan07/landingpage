@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import React from "react";
 
 const Navbar = () => {
@@ -22,7 +22,7 @@ const Navbar = () => {
       <nav className="lg:px-16 px-6 flex flex-wrap items-center lg:py-0 py-2 ">
         <div className="flex-1 flex justify-between items-center">
           <a href="#" className="flex text-lg font-semibold">
-            <Image src="/assets/Simaku.png" className="p-2 w-40" alt="Simaku logo" />
+            <image src="/assets/Simaku.png" className="p-2 w-40" alt="Simaku logo" />
             
           </a>
         </div>

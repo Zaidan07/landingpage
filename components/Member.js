@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+
 
 const Member = () => {
   return (
@@ -15,28 +15,28 @@ const Member = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-16 py-20 pl-8"> 
           
             <div className="flex flex-col gap-5 " >
-                <Image src="/assets/t1.svg" alt="t1" />
+                <image src="/assets/t1.svg" alt="t1" />
                 <p className="text-2xl font-semibold ">  Alfarez </p>
                 {/* <div className="flex items-center gap-2">
-                    <Image src="" alt="" />
+                    <image src="" alt="" />
                 </div> */}
                 <p className="text-gray-500 "> Lorem ipsum </p>
             </div>
           
             <div className="flex flex-col gap-5 " >
-                <Image src="/assets/t2.svg" alt="t1" />
+                <image src="/assets/t2.svg" alt="t1" />
                 <p className="text-2xl font-semibold ">  Sri Wati </p>
                 {/* <div className="flex items-center gap-2">
-                    <Image src="" alt="" />
+                    <image src="" alt="" />
                 </div> */}
                 <p className="text-gray-500 "> Lorem ipsum </p>
             </div>
           
             <div className="flex flex-col gap-5 " >
-                <Image src="/assets/t3.svg" alt="t1" />
+                <image src="/assets/t3.svg" alt="t1" />
                 <p className="text-2xl font-semibold ">  Shaim </p>
                 {/* <div className="flex items-center gap-2">
-                    <Image src="" alt="" />
+                    <image src="" alt="" />
                 </div> */}
                 <p className="text-gray-500 "> Lorem ipsum </p>
             </div>
