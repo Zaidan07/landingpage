@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="">
-      {/* <nav>
+      <nav>
         <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5">
             <img className='w-40' src="/assets/Simaku.png" alt="logo" />
             <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5">
@@ -14,9 +14,9 @@ const Navbar = () => {
                 <a className='cursor-pointer pb-1.5 transition-all hover:font-bold' href="">Contact</a>
             </div>  
         </div>
-      </nav> */}
+      </nav>
 
-<nav className="lg:px-16 px-6  flex flex-wrap items-center lg:py-0 py-2">
+{/* <nav className="lg:px-16 px-6  flex flex-wrap items-center lg:py-0 py-2">
     <div className="flex-1 flex justify-between items-center">
       <img className="w-40" src="/assets/Simaku.png" alt="" />
     </div>
@@ -82,7 +82,7 @@ const Navbar = () => {
         </ul>
       </nav>
     </div>
-  </nav>
+  </nav> */}
     </div>
   );
 };
