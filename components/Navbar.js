@@ -9,7 +9,7 @@ const Navbar = () => {
             <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5">
                 <a className='cursor-pointer pb-1.5 transition-all hover:font-bold' href="#home">Home</a>
                 <a className='cursor-pointer pb-1.5 transition-all hover:font-bold' href="#about">About</a>
-                <a className='cursor-pointer pb-1.5 transition-all hover:font-bold' href="#about">Product</a>
+                <a className='cursor-pointer pb-1.5 transition-all hover:font-bold' href="">Access</a>
                 <a className='cursor-pointer pb-1.5 transition-all hover:font-bold' href="">Meet Our Member</a>
                 <a className='cursor-pointer pb-1.5 transition-all hover:font-bold' href="">Contact</a>
             </div>  

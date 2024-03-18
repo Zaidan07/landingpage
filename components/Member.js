@@ -11,7 +11,7 @@ const Member = () => {
             </p>
         {/* head */}
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-16 py-20 pl-8"> 
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-16 py-20 pl-8 pr-8"> 
           
             <div className="flex flex-col gap-5 " >
                 <img src="/assets/t1.svg" alt="t1" />

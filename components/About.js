@@ -10,7 +10,7 @@ const About = () => {
           <p className="text-3xl lg:text-5xl font-semibold text-center mt-3">Kelebihan Kami</p>
           
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-16 items-center sm:items-center py-20 pl-8">   
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-16 items-center sm:items-center py-20 pl-8 pr-8">   
             <div className="flex flex-col gap-5  items-center pt-7 pb-6 max-w-sm rounded-xl overflow-hidden shadow-glass backdrop-blur-sm bg-white/30 " >
               <img src="/assets/v4.svg" alt="v4" />
               <p className="text-2xl font-semibold ">Mudah Digunakan</p>
