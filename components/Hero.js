@@ -19,9 +19,10 @@ const Hero = () => {
                 </p>
               </div>
               {/* <img className="max-w-sm lg:max-w-lg rounded-lg shadow-glass-card" src="/assets/admin/p2.jpg" alt="" /> */}
-              <div className="flex flex-colitems-center pt-0 pb-0 max-w-sm rounded-xl overflow-hidden shadow-glass">
-                <div className=""></div>
-                <img src="/assets/admin/p2.jpg" alt="" />
+              <div className="flex flex-col items-center pt-0 pb-0 max-w-md rounded-xl overflow-hidden ">
+                <div className="">
+                <img className="" src="/assets/heros.png" alt="" />
+                </div>
               </div>
             </div>
           </div>

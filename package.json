@@ -20,8 +20,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.8",
-    "taos": "^1.0.5"
+    "taos": "^1.0.5",
+    "tw-elements": "^2.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

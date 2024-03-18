@@ -14,7 +14,7 @@ const About = () => {
             <div className="flex flex-col gap-5  items-center pt-7 pb-6 max-w-sm rounded-xl overflow-hidden shadow-glass backdrop-blur-sm bg-white/30 " >
               <img src="/assets/v4.svg" alt="v4" />
               <p className="text-2xl font-semibold ">Mudah Digunakan</p>
-              <p className="text-gray-500 text-center">
+              <p className="text-gray-500 text-center px-5">
                 Lorem, ipsum dolor sit amet consectetur <br />
                 adipisicing elit. Explicabo corporis earum aliquid
                 <br /> quidem animi recusandae.
@@ -24,9 +24,9 @@ const About = () => {
             <div className="flex flex-col gap-5 items-center pt-7 pb-6 max-w-sm rounded-xl overflow-hidden  shadow-glass backdrop-blur-sm bg-white/30 ">
               <img src="/assets/v55.svg" alt="v5" />
               <p className="text-2xl font-semibold ">Harga Terjangkau</p>
-              <p className="text-gray-500 text-center">
+              <p className="text-gray-500 text-center px-5 ">
                 Lorem ipsum dolor sit amet consectetur <br />
-                adipisicing elit. Perspiciatis dicta atque odio nemo <br />
+                adipisicing elit. Perspiciatis dicta atque odio <br />
                 doloribus voluptate tempora laborum nulla?
               </p>
             </div>
@@ -34,7 +34,7 @@ const About = () => {
             <div className="flex flex-col gap-5 items-center pt-7 pb-6 max-w-sm rounded-xl overflow-hidden  shadow-glass backdrop-blur-sm bg-white/30 ">
               <img src="/assets/v06.svg" alt="v6" />
               <p className="text-2xl font-semibold ">Aplikasi Ringan</p>
-              <p className="text-gray-500 text-center">
+              <p className="text-gray-500 text-center px-5 ">
                 Lorem ipsum dolor sit amet consectetur
                 <br /> adipisicing elit. Reprehenderit fuga iusto
                 <br /> numquam cumque fugiat beatae tempore alias

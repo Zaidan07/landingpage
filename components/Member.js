@@ -9,34 +9,28 @@ const Member = () => {
         <p className="text-5xl font-semibold text-center mt-3">
             Anggota Kami 
             </p>
-        {/* head */}
+       
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-16 py-20 pl-8 pr-8"> 
           
             <div className="flex flex-col gap-5 " >
-                <img src="/assets/t1.svg" alt="t1" />
+                <img src="/assets/t1.svg" alt="" />
                 <p className="text-2xl font-semibold ">  Alfarez </p>
-                {/* <div className="flex items-center gap-2">
-                    <img src="" alt="" />
-                </div> */}
+                
                 <p className="text-gray-500 "> Lorem ipsum </p>
             </div>
           
             <div className="flex flex-col gap-5 " >
-                <img src="/assets/t2.svg" alt="t1" />
+                <img src="/assets/t2.svg" alt="" />
                 <p className="text-2xl font-semibold ">  Sri Wati </p>
-                {/* <div className="flex items-center gap-2">
-                    <img src="" alt="" />
-                </div> */}
+               
                 <p className="text-gray-500 "> Lorem ipsum </p>
             </div>
           
             <div className="flex flex-col gap-5 " >
-                <img src="/assets/t3.svg" alt="t1" />
+                <img src="/assets/t3.svg" alt="" />
                 <p className="text-2xl font-semibold ">  Shaim </p>
-                {/* <div className="flex items-center gap-2">
-                    <img src="" alt="" />
-                </div> */}
+                
                 <p className="text-gray-500 "> Lorem ipsum </p>
             </div>
 
@@ -44,7 +38,7 @@ const Member = () => {
 
             
         </div>
-        {/* body */}
+       
     
     </div>
   )
